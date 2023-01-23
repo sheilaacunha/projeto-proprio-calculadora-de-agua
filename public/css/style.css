@@ -28,8 +28,6 @@ section>div,
 footer {
     width: 100%;
 }
-
-/* .sectionH1, */
 .sectionConteudo,
 form>div,
 .sectionEsquerda,
@@ -51,8 +49,6 @@ section>div {
     height: 100%;
 
 }
-
-/* .sectionH1, */
 #msg>span,
 article,
 form,
@@ -65,8 +61,6 @@ td,
 th {
     text-align: center;
 }
-
-/* .sectionH1, */
 #msg>span,
 article,
 form {
@@ -167,7 +161,7 @@ footer a {
 ============================================================================ */
 
 @media only screen and (max-width:900px) {
-   
+
     main,
     .sectionEsquerda,
     article,
@@ -176,7 +170,7 @@ footer a {
     }
 
     .colunaDireita {
-       background-position: top right;
+        background-position: top right;
 
     }
 
@@ -227,8 +221,7 @@ footer a {
     }
 
     footer {
-    position: absolute;
-    bottom: 0;
+        display: none;
     }
 
 }
