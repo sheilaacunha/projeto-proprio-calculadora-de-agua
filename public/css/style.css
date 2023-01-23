@@ -9,59 +9,98 @@
 }
 
 body {
- 
+
     height: 100vh;
 }
+
 main {
     height: 95%;
 }
-main,.sectionH1,.sectionConteudo,article,table, form, section > div, #msg>span, footer{
- width: 100%;
+
+main,
+.sectionH1,
+.sectionConteudo,
+article,
+table,
+form,
+section>div,
+#msg>span,
+footer {
+    width: 100%;
 }
-.sectionH1, .sectionConteudo,form > div, .sectionEsquerda,article,form,section > div,#msg>span,.colunaDireita,footer {
-display: flex;
+
+.sectionH1,
+.sectionConteudo,
+form>div,
+.sectionEsquerda,
+article,
+form,
+section>div,
+#msg>span,
+.colunaDireita,
+footer {
+    display: flex;
 }
-section > div{
+
+section>div {
     height: 30%;
 }
-#msg>span,.colunaDireita {
+
+#msg>span,
+.colunaDireita {
     height: 100%;
 
 }
-.sectionH1,#msg>span, article,form{
+
+.sectionH1,
+#msg>span,
+article,
+form, footer {
     align-items: center;
 }
+
 table,
 td,
-th{
- text-align: center;
+th {
+    text-align: center;
 }
+
 .sectionH1,
-#msg>span, article,form{
- justify-content: center;
+#msg>span,
+article,
+form {
+    justify-content: center;
 }
-#msg>span{
+
+#msg>span {
     color: #F0F0F0;
 }
-.sectionH1{
+
+.sectionH1 {
     height: 10%;
 }
+
 h1 {
     font-size: 30px;
     line-height: 36px;
     text-shadow: 2px 2px 4px #00000063;
 }
+
 .sectionConteudo {
     height: 85%;
 }
-.sectionEsquerda,.colunaDireita{
- width: 50%;
+
+.sectionEsquerda,
+.colunaDireita {
+    width: 50%;
 }
+
 .sectionEsquerda {
     flex-direction: column;
     gap: 60px;
     margin: 2%;
 }
+
 table,
 td,
 th {
@@ -69,21 +108,26 @@ th {
     border: 1px solid black;
     font-size: 15px;
 }
+
 article {
     background-color: #F0F0F0;
     border-radius: 10px;
 }
+
 form {
 
     font-size: 15px;
     line-height: 16px;
 }
-form > div {
-    margin:2%;  
+
+form>div {
+    margin: 2%;
 }
-input{
+
+input {
     width: 100px;
 }
+
 button {
     background-color: #BA68C8;
     color: #F0F0F0;
@@ -92,76 +136,115 @@ button {
     border-radius: 10px;
     border: none;
 }
+
 #msg>span {
     font-size: 15px;
     background-color: #BA68C8;
-    border-radius: 50%;
+    border-radius: 10px;
+    text-align: center;
 }
+
 .colunaDireita {
     background-image: url(../assets/Healthy\ lifestyle.gif);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 footer {
     justify-content: space-around;
     height: 5%;
+   border-top: 0.5px solid #ccc5c5 ;
   
 }
+footer a {
+  color: #ccc5c5;
+
+}
+
 @media only screen and (max-width:900px) {
-     main{
+    main {
         width: 95%;
         height: 100%;
     }
-     .sectionConteudo{
-    gap:20%;
-  }
-   .sectionH1,  .sectionEsquerda,.colunaDireita,article,form,.sectionConteudo{
- width: 100%;
-   }
-     .sectionH1,#msg>span{
+
+    .sectionConteudo {
+        gap: 20%;
+    }
+
+    .sectionH1,
+    .sectionEsquerda,
+    .colunaDireita,
+    article,
+    form,
+    .sectionConteudo {
+        width: 100%;
+    }
+
+    .sectionH1,
+    #msg>span {
         text-align: center;
-     }
-   .sectionH1{
-        height:15%;
+    }
+
+    .sectionH1 {
+        height: 15%;
         margin: 2%;
 
     }
-        .sectionEsquerda{
-      gap: 5%;
-      height: 40%;
+
+    .sectionEsquerda {
+        gap: 5%;
+        height: 40%;
     }
-    .colunaDireita{
+
+    .colunaDireita {
         height: 50%;
         background-position: center;
-        background-size:contain ;
+        background-size: contain;
     }
-    table, td,tr,th{
-          border: none;
+
+    table,
+    td,
+    tr,
+    th {
+        border: none;
     }
-   td,tr,th{  
-    text-align: left; 
-   }
-   td{
-    width: 50%;
-   }
-     article, form{
+
+    td,
+    tr,
+    th {
+        text-align: left;
+    }
+
+    td {
+        width: 50%;
+    }
+
+    article,
+    form {
         height: 50%;
-     }
-    article,form,.sectionConteudo{
+    }
+
+    article,
+    form,
+    .sectionConteudo {
         flex-direction: column;
     }
-    form  div{
+
+    form div {
         margin: 5px;
     }
-    p{
+
+    p {
         display: none;
     }
-    h1{
-         font-size: 20px;
-    line-height:26px;
+
+    h1 {
+        font-size: 20px;
+        line-height: 26px;
     }
-#msg>span{
-    border-radius: 10px;
-    margin: 2%;
-}    
+
+    #msg>span {
+        border-radius: 10px;
+        margin: 2%;
+    }
 }
