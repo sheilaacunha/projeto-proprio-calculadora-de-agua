@@ -167,7 +167,8 @@ footer a {
 ============================================================================ */
 
 @media only screen and (max-width:900px) {
-     main,
+   
+    main,
     .sectionEsquerda,
     article,
     .sectionConteudo {
@@ -175,7 +176,7 @@ footer a {
     }
 
     .colunaDireita {
-        width: 100%;
+       background-position: top right;
 
     }
 
@@ -226,7 +227,8 @@ footer a {
     }
 
     footer {
-    display: none;
+    position: absolute;
+    bottom: 0;
     }
 
 }
