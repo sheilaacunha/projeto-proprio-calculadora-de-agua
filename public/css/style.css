@@ -110,7 +110,7 @@ footer {
         height: 100%;
     }
      .sectionConteudo{
-    gap: 15%;
+    gap: 20%;
   }
    .sectionH1,  .sectionEsquerda,.colunaDireita,article,form,.sectionConteudo{
  width: 100%;
@@ -152,6 +152,10 @@ footer {
     }
     p{
         display: none;
+    }
+    h1{
+         font-size: 20px;
+    line-height:26px;
     }
 #msg>span{
     border-radius: 10px;
