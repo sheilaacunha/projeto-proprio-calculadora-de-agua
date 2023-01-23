@@ -174,7 +174,6 @@ footer a {
     main,
     .sectionEsquerda,
     article,
-    form,
     .sectionConteudo {
         width: 100%;
     }
@@ -183,7 +182,11 @@ footer a {
         width: 80%;
 
     }
-
+form{
+    width: fit-content;
+    display: block;
+  background-color: yellowgreen;
+}
     .sectionConteudo {
         gap: 30%;
         display: block;
