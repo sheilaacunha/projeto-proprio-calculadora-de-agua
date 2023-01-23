@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sheila Acunha">
+    <meta name="description" content="projeto proprio">
+    <meta name="keywords" content="HTMLS, CSS, JS">
+    <link rel="shortcut icon" href="./public/assets/iconGota.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Vida Saudável</title>
+</head>
+
+<body>
+    <main>
+        <section class="sectionH1">
+            <h1>
+                Saiba a quantidade de água por dia que você tem que beber.
+            </h1>
+        </section>
+        <section class="sectionConteudo">
+            <section class="sectionEsquerda">
+                <table>
+                    <tr>
+                        <th>Idade</th>
+                        <th>Quantidade recomendada por kg</th>
+                    </tr>
+                    <tr>
+                        <td>Até os 17 anos</td>
+                        <td>40 ml</td>
+                    </tr>
+                    <tr>
+                        <td>18 aos 55 anos</td>
+                        <td>35 ml</td>
+                    </tr>
+                    <tr>
+                        <td>55 aos 65 anos</td>
+                        <td>30 ml</td>
+                    </tr>
+                    <tr>
+                        <td>66 anos ou +</td>
+                        <td>25 ml</td>
+                    </tr>
+                </table>
+                <article>
+                    <form id="pesoForm" action="">
+                        <div>
+                            <label for="idade">Idade:</label>
+                            <input type="number" max="100" id="idade" required>
+                        </div>
+                        <div>
+                            <label for="peso">Peso:</label>
+                            <input type="number" max="200" id="peso" required>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit">Calcular</button>
+                        </div>
+                    </form>
+                </article>
+                <div id="msg"></div>
+                <p> Mas atenção: os especialistas recomendam que, em caso de ser praticante de atividades físicas com
+                    frequência e com alto impacto/esforço, é preciso ingerir 500 ml a 1 l de água por cada hora de
+                    exercício praticado.</p>
+            </section>
+            <section class="colunaDireita">
+            </section>
+        </section>
+    </main>
+    <footer>
+        <a href="https://blog.livup.com.br/quantidade-de-agua-por-dia/" target="_blank" title="site de referencia">LIV
+            UP</a>
+        <a target="_blank" title="Fonte de icon" href="https://icons8.com"> Icon illustrations by Icons8</a>
+        <a href="https://storyset.com/people" target="_blank" title="imagem de ilustração">People illustrations by
+            Storyset</a>
+    </footer>
+
+    <script src="./public/js/index.js"></script>
+
+</body>
+
+</html>
