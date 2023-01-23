@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 100vw;
+ 
     height: 100vh;
 }
 main {
@@ -110,7 +110,7 @@ footer {
         height: 100%;
     }
      .sectionConteudo{
-    gap: 20%;
+    gap: 30%;
   }
    .sectionH1,  .sectionEsquerda,.colunaDireita,article,form,.sectionConteudo{
  width: 100%;
