@@ -172,10 +172,11 @@ footer a:hover{
         width: 100%;
     }
     .leftSide h1 {
-    width: 95%;
-    font-size: 30px;
-    line-height: 32px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
     text-align: center;
+     text-shadow: 2px 2px 4px #BA68C8;
    
 }
     .leftSide {
