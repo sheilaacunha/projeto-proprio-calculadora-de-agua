@@ -10,67 +10,74 @@
     <meta name="description" content="projeto proprio">
     <meta name="keywords" content="HTMLS, CSS, JS">
     <link rel="shortcut icon" href="./public/assets/iconGota.png" type="image/x-icon">
-    <link rel="stylesheet" href="./public/css/styleMedia.css">
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <!-- <link rel="stylesheet" href="./public/css/style.css"> -->
     <title>Vida Saudável</title>
 </head>
 
 <body>
     <main>
+        <section class="leftSide">
+            <h1>
+                Saiba a quantidade de água por dia que você tem que beber.
+            </h1>
 
-        <section class="sectionConteudo">
-            <section class="sectionEsquerda">
-                <section class="sectionH1">
-                    <h1>
-                        Saiba a quantidade de água por dia que você tem que beber.
-                    </h1>
-                </section>
-                <table>
-                    <tr>
-                        <th>Idade</th>
-                        <th>Quantidade recomendada por kg</th>
-                    </tr>
-                    <tr>
-                        <td>Até os 17 anos</td>
-                        <td>40 ml</td>
-                    </tr>
-                    <tr>
-                        <td>18 aos 55 anos</td>
-                        <td>35 ml</td>
-                    </tr>
-                    <tr>
-                        <td>55 aos 65 anos</td>
-                        <td>30 ml</td>
-                    </tr>
-                    <tr>
-                        <td>66 anos ou +</td>
-                        <td>25 ml</td>
-                    </tr>
-                </table>
-                <article>
-                    <form id="pesoForm" action="">
-                        <div>
-                            <label for="idade">Idade:</label>
-                            <input type="number" max="100" id="idade" required>
-                        </div>
-                        <div>
-                            <label for="peso">Peso:</label>
-                            <input type="number" max="200" id="peso" required>
-                        </div>
-                        <div>
-                            <button class="btn" type="submit">Calcular</button>
-                        </div>
-                    </form>
-                </article>
-                <div id="msg"></div>
-                <p> Mas atenção: os especialistas recomendam que, em caso de ser praticante de atividades físicas com
-                    frequência e com alto impacto/esforço, é preciso ingerir 500 ml a 1 l de água por cada hora de
-                    exercício praticado.</p>
-            </section>
-            <section class="colunaDireita">
-            </section>
+            <table>
+                <tr>
+                    <th>Idade</th>
+                    <th>Quantidade por kg</th>
+                </tr>
+                <tr>
+                    <td>Até os 17 anos</td>
+                    <td>40 ml</td>
+                </tr>
+                <tr>
+                    <td>18 aos 55 anos</td>
+                    <td>35 ml</td>
+                </tr>
+                <tr>
+                    <td>55 aos 65 anos</td>
+                    <td>30 ml</td>
+                </tr>
+                <tr>
+                    <td>66 anos ou +</td>
+                    <td>25 ml</td>
+                </tr>
+            </table>
+            <article>
+                <form id="pesoForm" action="">
+                    <div class="inputbox">
+                        <input type="number" max="100" id="idade" required>
+                        <label for="idade">Idade:</label>
+                        <i></i>
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" max="200" id="peso" required>
+                        <label for="peso">Peso:</label>
+                        <i></i>
+                    </div>
+                    <div>
+                        <button class="btn" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </article>
+            <div id="msg">
+                <!-- <span> Quantidade recomendada por kg é de ${qtdAgua} litros por dia !!!!</span> -->
+
+            </div>
+            <p> Mas atenção: os especialistas recomendam que, em caso de ser praticante de atividades físicas com
+                frequência e com alto impacto/esforço, é preciso ingerir 500 ml a 1 L de água por cada hora de
+                exercício praticado.</p>
         </section>
+        <section class="rightSide">
+            <article>
+                <img src="./public/assets/Healthy lifestyle.gif" alt="3 meninas fazendo exercicio">
+            </article>
+
+        </section>
+
     </main>
+
 
     <footer>
         <a href="https://github.com/sheilaacunha?tab=repositories">Feito por 🤍 Sheila Acunha &copy;2023</a>
