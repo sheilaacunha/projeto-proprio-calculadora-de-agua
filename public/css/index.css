@@ -171,6 +171,13 @@ footer a:hover{
         flex-direction: column;
         width: 100%;
     }
+    .leftSide h1 {
+    width: 95%;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+   
+}
     .leftSide {
         width: 100%;
         gap: 10px;
