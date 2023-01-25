@@ -184,7 +184,7 @@ footer a:hover{
         height: 50%;
     }
     .rightSide>article>img {
-        width: 70%;
+        width: 100%;
         height: fit-content;
     }
     p {
