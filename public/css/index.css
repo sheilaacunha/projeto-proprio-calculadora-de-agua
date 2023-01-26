@@ -116,7 +116,7 @@ form>div {
 }
 .inputbox input:valid~i,
 .inputbox input:focus~i {
-    height: 24px;
+    height: 44px;
 }
 button {
     --bg: #37474fdc;
@@ -200,4 +200,8 @@ footer a:hover{
     footer {
         display: none;
     }
+    .inputbox input:valid~i,
+.inputbox input:focus~i {
+    height: 24px;
+}
 }
