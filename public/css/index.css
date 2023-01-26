@@ -116,7 +116,7 @@ form>div {
 }
 .inputbox input:valid~i,
 .inputbox input:focus~i {
-    height: 44px;
+    height: 34px;
 }
 button {
     --bg: #37474fdc;
