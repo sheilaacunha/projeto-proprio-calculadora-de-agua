@@ -204,4 +204,7 @@ footer a:hover{
 .inputbox input:focus~i {
     height: 24px;
 }
+#msg>span{
+    padding: 5%;
+}
 }
